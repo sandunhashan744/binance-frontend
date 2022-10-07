@@ -1,0 +1,12 @@
+.downloadApp {
+    background-color: #f8f8f8;
+    margin: auto;
+    padding: 3rem 1rem 2rem 1rem;
+    width: 100%;
+}
+.card-header {
+    background-color: white;
+}
+.card-footer{
+    background-color: white;
+}
