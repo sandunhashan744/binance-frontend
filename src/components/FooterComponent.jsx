@@ -10,13 +10,13 @@ const FooterComponent = () => {
                         <a href='/'>Home</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo'>Demo</a>
+                        <a href='#demo'>How it Works</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#downloadApp'>Download</a>
+                        <a href='#downloadApp'>Reviews</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about'>About</a>
+                        <a href='#pricingApp'>Buy Now</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#contactUs'>Contact</a>

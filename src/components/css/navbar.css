@@ -1,6 +1,6 @@
 .header {
     position: fixed;
-    height: 90px;
+    height: 100px;
     width: 100%;
     top: 0;
     left: 0;
@@ -55,7 +55,7 @@
 
 @media screen and (max-width:940px) {
     .header {
-        max-width: 100%;
+        
         background-color: rgba(0,0,0,.9);
     }
 
@@ -85,7 +85,8 @@
     }
 
     .nav-item {
-        margin: 1.5rem 0;
+        margin: 1rem 1rem 0 0.5rem;
+        
     }
 
     .header .navbar img {

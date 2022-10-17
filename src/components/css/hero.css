@@ -4,11 +4,13 @@
     height: 100vh;
     width: 100%;
     position: relative;
+    margin: auto;
+    
 }
 
 .hero:before {
     content: '';
-    background: url(/src/components/img/bg.jpg) no-repeat center center/cover;;
+    background: url(/src/components/img/bg1.jpg) no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -16,6 +18,7 @@
     left: 0;
     z-index: -1;
 }
+
 
 .hero .content {
     height: 100%;
@@ -28,12 +31,13 @@
 }
 
 .hero .content p:first-child {
+    
     font-style: italic;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 .hero .content p:nth-child(2) {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
 }
 
 .hero .content p:nth-child(3) {
@@ -41,18 +45,17 @@
     font-weight: 700;
 }
 
-
 .hero .content p:nth-child(4) {
     font-size: 2.2rem;
     font-style: italic;
 }
 
 .hero .button {
-    margin: 1rem 0;
-    width: 300px;
+    margin: 2rem 0;
+    width: 290px;
     background-color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
-    color: #333;
+    color: #fff;
 }
 
 .hero .button:hover {
@@ -69,12 +72,13 @@
         font-size: 1.6rem;
     }
 }
+.Typewriter__cursor{
+    visibility: hidden;
+}
 
-
-
-
-
-
+.Typewriter__wrapper  {
+   font-size: 150%;
+}
 
 
 

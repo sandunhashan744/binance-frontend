@@ -1,0 +1,137 @@
+.pricingApp{
+    background: url(/src/components/img/price3.jpg) no-repeat center center/cover;
+    margin: auto;
+    padding: 6rem 0 3rem 0;
+    width: 100%;
+    height: 100vh;
+    font-size: 1.3rem;
+
+}
+/* 
+table{
+
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.borderless td, .borderless th {
+    border: none;
+    
+}
+
+td{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--secondary-dark)
+}
+
+.features{
+    width: 30%;
+}
+
+.freePac{
+    width: 20%;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.premium{
+    width: 20%;
+    text-align: center;
+    background-color: darkorange;  
+}
+
+.correct{
+    text-align: center;
+    color: green;
+}
+
+.wrong{
+    text-align: center;
+    color: red;
+} */
+
+.cd{
+    border-style: hidden;
+    margin: auto;
+    padding: auto;
+    width: 25%;
+    font-weight: 600;
+    transition: 1s;
+}
+.cd:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+
+.cd-feature{
+    border-style: hidden;
+    margin: auto;
+    padding: auto;
+    width: 25%;
+    font-weight: 600;
+    background: rgba(255, 255, 255, .2);
+
+}
+.cbody-feature{
+    color:white;
+    text-align: center;
+}
+.cd-head{
+    border-style: hidden;
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(1, 1, 34), rgb(118, 123, 242));
+    color: white;
+}
+
+.cd-titel{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.cbody{
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.body-text{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-size: 1.5rem;
+}
+.cd-btn{
+    width: 100%;
+    height: 7vh;
+    border-radius: 12px;
+    padding: 5px;
+    border-style: hidden;
+    background-color: var(--secondary-dark);
+    color: #f8f8f8;
+    font-weight: 700;
+}
+
+.cd-btn:hover{
+    transform: scale(1);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+
+.cfoot{
+    border-style: hidden;
+}
+.line-price{
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 2px auto;
+    background-color:greenyellow;
+}

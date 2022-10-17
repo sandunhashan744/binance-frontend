@@ -25,21 +25,20 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <Link to="hero" spy={true} smooth={true} offset={-50} duration={500} onClick={closeMenu}>Home</Link>
+                        <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="demo" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Demo</Link>
+                        <Link to="demo" id='test' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>How It Works</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="downloadApp" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Download</Link>
+                        <Link to="reviewComponent" spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>Reviews</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
+                        <Link to="pricingApp" spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>Pricing</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="cotactUS" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>
+                        <Link to="cotactUS" spy={true} smooth={true} offset={-80} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
-
                 </ul>
             </nav>
         </div>

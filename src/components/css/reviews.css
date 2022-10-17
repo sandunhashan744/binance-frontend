@@ -1,0 +1,58 @@
+.reviewComponent {
+    width: 100%;
+    height: 100vh;
+    padding: 8rem 0 0 0;
+    margin: 0 auto;
+  
+}
+.slick-slide > div{
+    margin: 0 10px;
+}
+.slick-list{
+    margin: 0 -10px;
+}
+.card-review{
+    border: 1px solid #fff;
+    background: black;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 380px;
+    color: #fff;
+
+}
+
+.card-top img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.card-bottom{
+    text-align: center;
+}
+
+.slick-arrow{
+    background:#000;
+}
+.slick-arrow:hover{
+    background-color: navy;
+}
+
+/* h5{
+    color: white;
+    font-weight: bold;
+}
+*/
+.stars{
+    
+    color: yellow;
+} 
+
+.cus-name{
+    text-align: center;
+    margin: 4px 0 ;
+    font-weight: 700;
+}
+.comment{
+    margin:auto;
+}
